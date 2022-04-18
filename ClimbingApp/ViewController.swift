@@ -11,9 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // タブバーアイコンの選択時の色
+        UITabBar.appearance().tintColor = UIColor.black
+        // タブバーアイコンの未選択時の色
+        UITabBar.appearance().unselectedItemTintColor = UIColor.white
     }
-
-
 }
 

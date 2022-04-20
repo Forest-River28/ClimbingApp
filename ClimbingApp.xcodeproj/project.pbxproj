@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		063CE01012ACD32FB06299D3 /* Pods_ClimbingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437CF6DD55295B83D48A45AE /* Pods_ClimbingApp.framework */; };
+		30B2DF802810C92500365BDF /* HomePager1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */; };
+		30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */; };
 		30F8195A2805ADA60043215D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F819592805ADA60043215D /* AppDelegate.swift */; };
 		30F8195C2805ADA60043215D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8195B2805ADA60043215D /* SceneDelegate.swift */; };
 		30F8195E2805ADA60043215D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8195D2805ADA60043215D /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		2CE375AAE67BD84C760E0B16 /* Pods-ClimbingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		2D354DB499BE56C75DA7DE69 /* Pods-ClimbingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.release.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager1ViewController.swift; sourceTree = "<group>"; };
+		30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager2ViewController.swift; sourceTree = "<group>"; };
 		30F819562805ADA60043215D /* ClimbingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F819592805ADA60043215D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30F8195B2805ADA60043215D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				30F819622805ADA70043215D /* Assets.xcassets */,
 				30F819642805ADA70043215D /* LaunchScreen.storyboard */,
 				30F819672805ADA70043215D /* Info.plist */,
+				30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */,
+				30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */,
 			);
 			path = ClimbingApp;
 			sourceTree = "<group>";
@@ -154,7 +160,6 @@
 				B95D2DC1EA9B19EB5ED372DD /* Pods-ClimbingAppTests.debug.xcconfig */,
 				2D354DB499BE56C75DA7DE69 /* Pods-ClimbingAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,6 +413,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30F8195E2805ADA60043215D /* ViewController.swift in Sources */,
+				30B2DF802810C92500365BDF /* HomePager1ViewController.swift in Sources */,
+				30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */,
 				30F8195A2805ADA60043215D /* AppDelegate.swift in Sources */,
 				30F8195C2805ADA60043215D /* SceneDelegate.swift in Sources */,
 			);

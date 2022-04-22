@@ -11,7 +11,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -27,7 +27,7 @@
         <scene sceneID="BYy-ns-cpM">
             <objects>
                 <viewController storyboardIdentifier="Second" id="8jN-ab-5CY" customClass="HomePager2ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Jv9-Tr-Pgl">
+                    <view key="view" contentMode="scaleToFill" id="Jv9-Tr-Pgl" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -54,7 +54,7 @@
         <scene sceneID="5cZ-6U-UlD">
             <objects>
                 <viewController storyboardIdentifier="First" id="Yh3-Hb-TfJ" customClass="HomePager1ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MvD-JR-TMo">
+                    <view key="view" contentMode="scaleToFill" id="MvD-JR-TMo" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -81,7 +81,7 @@
         <scene sceneID="w5c-lr-RUR">
             <objects>
                 <viewController id="9fM-WP-knl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="e18-2X-Zgf">
+                    <view key="view" contentMode="scaleToFill" id="e18-2X-Zgf" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ovU-Io-Gm7"/>
@@ -97,7 +97,7 @@
         <scene sceneID="JUS-So-x7z">
             <objects>
                 <viewController id="ewl-Gl-oTv" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tbV-3r-87p">
+                    <view key="view" contentMode="scaleToFill" id="tbV-3r-87p" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="sBt-Z7-C29"/>
@@ -113,7 +113,7 @@
         <scene sceneID="qwL-CL-qfE">
             <objects>
                 <viewController id="oez-ap-1A7" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="WEV-dU-ldA">
+                    <view key="view" contentMode="scaleToFill" id="WEV-dU-ldA" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="2pz-rz-FC1"/>

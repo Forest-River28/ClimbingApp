@@ -14,21 +14,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Climbing" translatesAutoresizingMaskIntoConstraints="NO" id="qc4-va-wT7">
-                                <rect key="frame" x="0.0" y="44" width="414" height="50"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="oLl-Xw-wgU"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.47843140360000003" green="0.72941178080000002" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="qc4-va-wT7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JNI-D4-qWG"/>
-                            <constraint firstItem="qc4-va-wT7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="X9M-Kr-xah"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qc4-va-wT7" secondAttribute="trailing" id="fa0-JZ-liD"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="s2B-p1-eSd"/>
                 </viewController>
@@ -161,7 +148,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Climbing" width="176" height="127"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="pencil" catalog="system" width="128" height="113"/>

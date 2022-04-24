@@ -8,12 +8,6 @@
 import UIKit
 
 class iconTozanXib: UIView {
-
-    // コードから呼び出す際に使用
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        loadNib()
-    }
     
     // Storyboardから利用する際に使用
     required init?(coder aDecoder: NSCoder) {

@@ -15,7 +15,6 @@ class iconTozanXib: UIView {
         loadNib()
     }
     
-    // 上記どちらのinitからも使用される共通関数でxibファイルを呼び出す
     func loadNib() {
         // 第1引数のnameにはxibファイル名
         // ownerはself固定

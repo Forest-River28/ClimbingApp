@@ -11,12 +11,6 @@ import XLPagerTabStrip
 class ViewController: ButtonBarPagerTabStripViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // タブバーアイコンの選択時の色
-        UITabBar.appearance().tintColor = UIColor.black
-        // タブバーアイコンの未選択時の色
-        UITabBar.appearance().unselectedItemTintColor = UIColor.white
-        
         // バーの色
         settings.style.buttonBarBackgroundColor = UIColor(red: 73/255, green: 72/255, blue: 62/255, alpha: 1)
         // ボタンの色
@@ -25,6 +19,12 @@ class ViewController: ButtonBarPagerTabStripViewController {
         settings.style.buttonBarItemTitleColor = UIColor.white
         // セレクトバーの色
         settings.style.selectedBarBackgroundColor = UIColor(red: 254/255, green: 0, blue: 124/255, alpha: 1)
+        super.viewDidLoad()
+        // タブバーアイコンの選択時の色
+        UITabBar.appearance().tintColor = UIColor.black
+        // タブバーアイコンの未選択時の色
+        UITabBar.appearance().unselectedItemTintColor = UIColor.white
+        
     }
     
     override func didReceiveMemoryWarning() {

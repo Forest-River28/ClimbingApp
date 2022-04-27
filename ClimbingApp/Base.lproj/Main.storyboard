@@ -50,6 +50,33 @@
             </objects>
             <point key="canvasLocation" x="2526" y="-502"/>
         </scene>
+        <!--Home Pager4 View Controller-->
+        <scene sceneID="dff-bs-9SV">
+            <objects>
+                <viewController id="Ysd-WY-WGr" customClass="HomePager4ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FNx-MN-mHH" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切り替え4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frQ-ev-86t">
+                                <rect key="frame" x="130" y="428" width="154" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1yl-c5-aLE"/>
+                        <color key="backgroundColor" red="0.39173778889999999" green="0.73793762919999994" blue="0.5454229116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="frQ-ev-86t" firstAttribute="centerY" secondItem="FNx-MN-mHH" secondAttribute="centerY" id="0Ro-xF-ggv"/>
+                            <constraint firstItem="frQ-ev-86t" firstAttribute="centerX" secondItem="FNx-MN-mHH" secondAttribute="centerX" id="JJB-so-7mC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u4S-23-u4H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3377" y="-502"/>
+        </scene>
         <!--Home Pager3 View Controller-->
         <scene sceneID="ghk-Jr-2J8">
             <objects>

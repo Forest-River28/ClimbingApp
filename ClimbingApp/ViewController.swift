@@ -36,7 +36,8 @@ class ViewController: ButtonBarPagerTabStripViewController {
         let firstVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "First")
         let secondVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Second")
         let thirdVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Third")
-        let childViewControllers:[UIViewController] = [firstVC, secondVC, thirdVC]
+        let fourthVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Fourth")
+        let childViewControllers:[UIViewController] = [firstVC, secondVC, thirdVC, fourthVC]
         return childViewControllers
     }
 }

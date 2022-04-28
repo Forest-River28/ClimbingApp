@@ -77,6 +77,33 @@
             </objects>
             <point key="canvasLocation" x="3377" y="-502"/>
         </scene>
+        <!--Home Pager5 View Controller-->
+        <scene sceneID="DJE-pJ-tS6">
+            <objects>
+                <viewController storyboardIdentifier="Fifth" id="0df-hf-Suh" customClass="HomePager5ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ah1-8z-dC1" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切り替え5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wP-rE-edd">
+                                <rect key="frame" x="130.5" y="428" width="153" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gDg-5s-vR2"/>
+                        <color key="backgroundColor" red="0.47843140360000003" green="0.72941178080000002" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="4wP-rE-edd" firstAttribute="centerY" secondItem="Ah1-8z-dC1" secondAttribute="centerY" id="cZH-eS-w6I"/>
+                            <constraint firstItem="4wP-rE-edd" firstAttribute="centerX" secondItem="Ah1-8z-dC1" secondAttribute="centerX" id="n3H-XL-quB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WGi-W1-AbP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3377" y="179"/>
+        </scene>
         <!--Home Pager3 View Controller-->
         <scene sceneID="ghk-Jr-2J8">
             <objects>

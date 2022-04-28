@@ -10,6 +10,7 @@
 		063CE01012ACD32FB06299D3 /* Pods_ClimbingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437CF6DD55295B83D48A45AE /* Pods_ClimbingApp.framework */; };
 		3043E852281834920003AD65 /* HomePager3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E851281834920003AD65 /* HomePager3ViewController.swift */; };
 		3043E8542819905D0003AD65 /* HomePager4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E8532819905D0003AD65 /* HomePager4ViewController.swift */; };
+		3043E856281B26CD0003AD65 /* HomePager5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E855281B26CD0003AD65 /* HomePager5ViewController.swift */; };
 		30B2DF802810C92500365BDF /* HomePager1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */; };
 		30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */; };
 		30B2DF842813035E00365BDF /* iconTozanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B2DF832813035D00365BDF /* iconTozanView.xib */; };
@@ -49,6 +50,7 @@
 		2D354DB499BE56C75DA7DE69 /* Pods-ClimbingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.release.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3043E851281834920003AD65 /* HomePager3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager3ViewController.swift; sourceTree = "<group>"; };
 		3043E8532819905D0003AD65 /* HomePager4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager4ViewController.swift; sourceTree = "<group>"; };
+		3043E855281B26CD0003AD65 /* HomePager5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager5ViewController.swift; sourceTree = "<group>"; };
 		30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager1ViewController.swift; sourceTree = "<group>"; };
 		30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager2ViewController.swift; sourceTree = "<group>"; };
 		30B2DF832813035D00365BDF /* iconTozanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iconTozanView.xib; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */,
 				3043E851281834920003AD65 /* HomePager3ViewController.swift */,
 				3043E8532819905D0003AD65 /* HomePager4ViewController.swift */,
+				3043E855281B26CD0003AD65 /* HomePager5ViewController.swift */,
 			);
 			path = ClimbingApp;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				30B2DF86281303B700365BDF /* iconTozanXib.swift in Sources */,
 				30F8195A2805ADA60043215D /* AppDelegate.swift in Sources */,
 				30F8195C2805ADA60043215D /* SceneDelegate.swift in Sources */,
+				3043E856281B26CD0003AD65 /* HomePager5ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

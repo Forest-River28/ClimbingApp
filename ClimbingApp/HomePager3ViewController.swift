@@ -19,6 +19,6 @@ class HomePager3ViewController: UIViewController, IndicatorInfoProvider {
     }
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return "Third"
+        return "初心者向き"
     }
 }

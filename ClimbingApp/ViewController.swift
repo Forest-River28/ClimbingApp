@@ -41,4 +41,3 @@ class ViewController: ButtonBarPagerTabStripViewController {
         return childViewControllers
     }
 }
-

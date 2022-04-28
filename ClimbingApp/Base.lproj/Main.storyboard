@@ -53,7 +53,7 @@
         <!--Home Pager4 View Controller-->
         <scene sceneID="dff-bs-9SV">
             <objects>
-                <viewController id="Ysd-WY-WGr" customClass="HomePager4ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Fourth" id="Ysd-WY-WGr" customClass="HomePager4ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FNx-MN-mHH" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

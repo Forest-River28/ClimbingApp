@@ -19,6 +19,6 @@ class HomePager4ViewController: UIViewController, IndicatorInfoProvider {
     }
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return "Fourth"
+        return "低山"
     }
 }

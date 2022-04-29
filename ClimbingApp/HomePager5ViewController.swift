@@ -1,14 +1,14 @@
 //
-//  HomePager2ViewController.swift
+//  HomePager5ViewController.swift
 //  ClimbingApp
 //
-//  Created by 森川大雅 on 2022/04/21.
+//  Created by 森川大雅 on 2022/04/29.
 //
 
-import UIKit
+import Foundation
 import XLPagerTabStrip
 
-class HomePager2ViewController: UIViewController, IndicatorInfoProvider {
+class HomePager5ViewController: UIViewController, IndicatorInfoProvider {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,6 @@ class HomePager2ViewController: UIViewController, IndicatorInfoProvider {
     }
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return "おすすめ"
+        return "百名山"
     }
-    
 }

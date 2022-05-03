@@ -51,6 +51,8 @@
 		3043E851281834920003AD65 /* HomePager3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager3ViewController.swift; sourceTree = "<group>"; };
 		3043E8532819905D0003AD65 /* HomePager4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager4ViewController.swift; sourceTree = "<group>"; };
 		3043E855281B26CD0003AD65 /* HomePager5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager5ViewController.swift; sourceTree = "<group>"; };
+		3043E870282155D30003AD65 /* ClimbingApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ClimbingApp copy-Info.plist"; path = "/Users/taiga/ios_app/ClimbingApp/ClimbingApp copy-Info.plist"; sourceTree = "<absolute>"; };
+		3043E889282155F50003AD65 /* ClimbingApp copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ClimbingApp copy2-Info.plist"; path = "/Users/taiga/ios_app/ClimbingApp/ClimbingApp copy2-Info.plist"; sourceTree = "<absolute>"; };
 		30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager1ViewController.swift; sourceTree = "<group>"; };
 		30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager2ViewController.swift; sourceTree = "<group>"; };
 		30B2DF832813035D00365BDF /* iconTozanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iconTozanView.xib; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3043E8572821539E0003AD65 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30F8195F2805ADA60043215D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		30F8194D2805ADA60043215D = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,8 @@
 				30F819572805ADA60043215D /* Products */,
 				D79DC55B241CC8712C451C87 /* Pods */,
 				F9E5347CBF08329134B9C9CC /* Frameworks */,
+				3043E870282155D30003AD65 /* ClimbingApp copy-Info.plist */,
+				3043E889282155F50003AD65 /* ClimbingApp copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,10 +142,10 @@
 		30F819582805ADA60043215D /* ClimbingApp */ = {
 			isa = PBXGroup;
 			children = (
+				3043E8572821539E0003AD65 /* View */,
 				30F819592805ADA60043215D /* AppDelegate.swift */,
 				30F8195B2805ADA60043215D /* SceneDelegate.swift */,
 				30F8195D2805ADA60043215D /* ViewController.swift */,
-				30F8195F2805ADA60043215D /* Main.storyboard */,
 				30B2DF832813035D00365BDF /* iconTozanView.xib */,
 				30B2DF85281303B700365BDF /* iconTozanXib.swift */,
 				30F819622805ADA70043215D /* Assets.xcassets */,
@@ -492,6 +504,146 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3043E88A282156E50003AD65 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Staging;
+		};
+		3043E88B282156E50003AD65 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CE375AAE67BD84C760E0B16 /* Pods-ClimbingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R35W7Z22BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClimbingApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiga.ClimbingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		3043E88C282156E50003AD65 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95D2DC1EA9B19EB5ED372DD /* Pods-ClimbingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R35W7Z22BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiga.ClimbingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClimbingApp.app/ClimbingApp";
+			};
+			name = Staging;
+		};
+		3043E88D282156E50003AD65 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AFB2EC31E1365C6DDA4DBD /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R35W7Z22BV;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taiga.ClimbingAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClimbingApp;
+			};
+			name = Staging;
+		};
 		30F8197E2805ADA70043215D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -773,6 +925,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30F8197E2805ADA70043215D /* Debug */,
+				3043E88A282156E50003AD65 /* Staging */,
 				30F8197F2805ADA70043215D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -782,6 +935,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30F819812805ADA70043215D /* Debug */,
+				3043E88B282156E50003AD65 /* Staging */,
 				30F819822805ADA70043215D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -791,6 +945,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30F819842805ADA70043215D /* Debug */,
+				3043E88C282156E50003AD65 /* Staging */,
 				30F819852805ADA70043215D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -800,6 +955,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				30F819872805ADA70043215D /* Debug */,
+				3043E88D282156E50003AD65 /* Staging */,
 				30F819882805ADA70043215D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

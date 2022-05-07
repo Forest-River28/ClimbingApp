@@ -9,10 +9,14 @@ import UIKit
 
 class iconTozanXib: UIView {
     
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     // Storyboardから利用する際に使用
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         loadNib()
+        setSearchBar()
+        
     }
     
     func loadNib() {
@@ -22,5 +26,10 @@ class iconTozanXib: UIView {
         let view = Bundle.main.loadNibNamed("iconTozanView", owner: self, options: nil)?.first as! UIView
         view.frame = self.bounds
         self.addSubview(view)
+    }
+    
+    func setSearchBar() {
+        searchBar.showsSearchResultsButton = true
+        searchBar.searchBarStyle = .minimal
     }
 }

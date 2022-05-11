@@ -158,42 +158,10 @@
             </objects>
             <point key="canvasLocation" x="2514" y="-1163"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="w5c-lr-RUR">
-            <objects>
-                <viewController id="9fM-WP-knl" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="e18-2X-Zgf" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="ovU-Io-Gm7"/>
-                        <color key="backgroundColor" red="0.39173778889999999" green="0.73793762919999994" blue="0.5454229116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="pencil" catalog="system" id="ZmI-4f-oX8"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2TS-CN-Vg9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="132" y="825"/>
-        </scene>
-        <!--Good-->
-        <scene sceneID="JUS-So-x7z">
-            <objects>
-                <viewController id="ewl-Gl-oTv" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tbV-3r-87p" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="sBt-Z7-C29"/>
-                        <color key="backgroundColor" red="0.47843140360000003" green="0.72941178080000002" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Good" image="star" catalog="system" id="qJD-7W-Ioh"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8ad-Yd-c01" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1238" y="825"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cFN-5Y-jAD">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="L4r-yc-jU4" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="L4r-yc-jU4" customClass="TabBarController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DzJ-vg-DlC">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -202,18 +170,47 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="iMV-WL-RRi"/>
-                        <segue destination="ewl-Gl-oTv" kind="relationship" relationship="viewControllers" id="GoV-PS-qcx"/>
-                        <segue destination="9fM-WP-knl" kind="relationship" relationship="viewControllers" id="c4f-xp-soq"/>
+                        <segue destination="EzS-bG-D6d" kind="relationship" relationship="viewControllers" id="dno-7c-qpj"/>
+                        <segue destination="2d1-BD-b1w" kind="relationship" relationship="viewControllers" id="D8y-aW-gdU"/>
+                        <segue destination="4ve-2X-OHS" kind="relationship" relationship="viewControllers" id="DyB-Cz-rEb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vZH-ss-9iV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="99.776785714285708"/>
         </scene>
+        <!--Search-->
+        <scene sceneID="mIf-mh-3AL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Search" id="EzS-bG-D6d" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="qm2-xf-ft6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eeb-Y9-aZp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="44" y="523"/>
+        </scene>
+        <!--Good-->
+        <scene sceneID="ojb-pi-LEI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Good" id="2d1-BD-b1w" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="zkY-pM-R9v"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="no4-yq-34e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="228" y="523"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="77k-Jm-PPT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Item" id="4ve-2X-OHS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="jfq-A7-5Td"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GCo-mn-tyS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="365" y="523"/>
+        </scene>
     </scenes>
     <resources>
         <image name="house" catalog="system" width="128" height="106"/>
-        <image name="pencil" catalog="system" width="128" height="113"/>
-        <image name="star" catalog="system" width="128" height="116"/>
     </resources>
 </document>

@@ -12,7 +12,9 @@
 		3043E8542819905D0003AD65 /* HomePager4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E8532819905D0003AD65 /* HomePager4ViewController.swift */; };
 		3043E856281B26CD0003AD65 /* HomePager5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E855281B26CD0003AD65 /* HomePager5ViewController.swift */; };
 		3043E893282AAC430003AD65 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3043E892282AAC430003AD65 /* Search.storyboard */; };
-		3043E896282AB0560003AD65 /* CommonNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E895282AB0560003AD65 /* CommonNavigationController.swift */; };
+		3043E896282AB0560003AD65 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E895282AB0560003AD65 /* TabBarController.swift */; };
+		3043E898282C02A50003AD65 /* Good.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3043E897282C02A50003AD65 /* Good.storyboard */; };
+		3043E89A282C02B30003AD65 /* Item.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3043E899282C02B30003AD65 /* Item.storyboard */; };
 		30B2DF802810C92500365BDF /* HomePager1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */; };
 		30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */; };
 		30B2DF842813035E00365BDF /* iconTozanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B2DF832813035D00365BDF /* iconTozanView.xib */; };
@@ -56,7 +58,9 @@
 		3043E870282155D30003AD65 /* ClimbingApp copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ClimbingApp copy-Info.plist"; path = "/Users/taiga/ios_app/ClimbingApp/ClimbingApp copy-Info.plist"; sourceTree = "<absolute>"; };
 		3043E889282155F50003AD65 /* ClimbingApp copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ClimbingApp copy2-Info.plist"; path = "/Users/taiga/ios_app/ClimbingApp/ClimbingApp copy2-Info.plist"; sourceTree = "<absolute>"; };
 		3043E892282AAC430003AD65 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
-		3043E895282AB0560003AD65 /* CommonNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonNavigationController.swift; sourceTree = "<group>"; };
+		3043E895282AB0560003AD65 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		3043E897282C02A50003AD65 /* Good.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Good.storyboard; sourceTree = "<group>"; };
+		3043E899282C02B30003AD65 /* Item.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Item.storyboard; sourceTree = "<group>"; };
 		30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager1ViewController.swift; sourceTree = "<group>"; };
 		30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager2ViewController.swift; sourceTree = "<group>"; };
 		30B2DF832813035D00365BDF /* iconTozanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iconTozanView.xib; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				30F8195F2805ADA60043215D /* Home.storyboard */,
 				30B2DF832813035D00365BDF /* iconTozanView.xib */,
 				3043E892282AAC430003AD65 /* Search.storyboard */,
+				3043E897282C02A50003AD65 /* Good.storyboard */,
+				3043E899282C02B30003AD65 /* Item.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -140,7 +146,7 @@
 				3043E851281834920003AD65 /* HomePager3ViewController.swift */,
 				3043E8532819905D0003AD65 /* HomePager4ViewController.swift */,
 				3043E855281B26CD0003AD65 /* HomePager5ViewController.swift */,
-				3043E895282AB0560003AD65 /* CommonNavigationController.swift */,
+				3043E895282AB0560003AD65 /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -332,6 +338,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				30F819662805ADA70043215D /* LaunchScreen.storyboard in Resources */,
+				3043E898282C02A50003AD65 /* Good.storyboard in Resources */,
+				3043E89A282C02B30003AD65 /* Item.storyboard in Resources */,
 				30F819632805ADA70043215D /* Assets.xcassets in Resources */,
 				30B2DF842813035E00365BDF /* iconTozanView.xib in Resources */,
 				30F819612805ADA60043215D /* Home.storyboard in Resources */,
@@ -465,7 +473,7 @@
 			files = (
 				30F8195E2805ADA60043215D /* ViewController.swift in Sources */,
 				30B2DF802810C92500365BDF /* HomePager1ViewController.swift in Sources */,
-				3043E896282AB0560003AD65 /* CommonNavigationController.swift in Sources */,
+				3043E896282AB0560003AD65 /* TabBarController.swift in Sources */,
 				3043E852281834920003AD65 /* HomePager3ViewController.swift in Sources */,
 				30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */,
 				3043E8542819905D0003AD65 /* HomePager4ViewController.swift in Sources */,

@@ -15,7 +15,7 @@ class iconTozanXib: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         loadNib()
-        setSearchBar()
+//        setSearchBar()
         
     }
     
@@ -28,8 +28,8 @@ class iconTozanXib: UIView {
         self.addSubview(view)
     }
     
-    func setSearchBar() {
-        searchBar.showsSearchResultsButton = true
-        searchBar.searchBarStyle = .minimal
-    }
+//    func setSearchBar() {
+//        searchBar.showsSearchResultsButton = true
+//        searchBar.searchBarStyle = .minimal
+//    }
 }

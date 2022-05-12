@@ -33,11 +33,11 @@ class ViewController: ButtonBarPagerTabStripViewController {
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         // 管理されるViewControllerを返す処理
-        let firstVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "First")
-        let secondVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Second")
-        let thirdVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Third")
-        let fourthVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Fourth")
-        let fifthVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "Fifth")
+        let firstVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "First")
+        let secondVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "Second")
+        let thirdVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "Third")
+        let fourthVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "Fourth")
+        let fifthVC = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "Fifth")
         let childViewControllers:[UIViewController] = [firstVC, secondVC, thirdVC, fourthVC, fifthVC]
         return childViewControllers
     }

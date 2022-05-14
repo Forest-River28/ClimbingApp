@@ -14,8 +14,30 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="FeW-Ee-Yim">
+                                <rect key="frame" x="7" y="94" width="400" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="o2l-Ch-4lB"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_TozAn" translatesAutoresizingMaskIntoConstraints="NO" id="0w8-Ub-ivf">
+                                <rect key="frame" x="157" y="54" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="2NQ-r0-Uur"/>
+                                    <constraint firstAttribute="height" constant="30" id="USd-JQ-bhx"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.39173778889999999" green="0.73793762919999994" blue="0.5454229116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FeW-Ee-Yim" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="5jH-8S-1k4"/>
+                            <constraint firstItem="0w8-Ub-ivf" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="10" id="HA2-VS-wUb"/>
+                            <constraint firstItem="0w8-Ub-ivf" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="gFV-O0-z6i"/>
+                            <constraint firstItem="FeW-Ee-Yim" firstAttribute="top" secondItem="0w8-Ub-ivf" secondAttribute="bottom" constant="10" id="yOT-Zl-qc6"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="8SV-Ad-hae"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
@@ -26,6 +48,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icon_TozAn" width="512" height="128"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
     </resources>
 </document>

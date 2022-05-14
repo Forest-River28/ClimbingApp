@@ -11,11 +11,24 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_TozAn" translatesAutoresizingMaskIntoConstraints="NO" id="5aM-qB-IfK">
+                                <rect key="frame" x="157" y="54" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="9uG-0p-CiQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="Dld-N1-hL2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.47843140360000003" green="0.72941178080000002" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="5aM-qB-IfK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="VYZ-Fe-8cK"/>
+                            <constraint firstItem="5aM-qB-IfK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sIB-85-sCg"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="s2B-p1-eSd"/>
                 </viewController>
@@ -212,5 +225,6 @@
     </scenes>
     <resources>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="icon_TozAn" width="512" height="128"/>
     </resources>
 </document>

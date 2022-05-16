@@ -16,6 +16,7 @@
 		3043E898282C02A50003AD65 /* Good.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3043E897282C02A50003AD65 /* Good.storyboard */; };
 		3043E89A282C02B30003AD65 /* Item.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3043E899282C02B30003AD65 /* Item.storyboard */; };
 		3043E89C282D532B0003AD65 /* NavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E89B282D532B0003AD65 /* NavigationBarController.swift */; };
+		3048ED1528329ADD002DDE7B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3048ED1428329ADD002DDE7B /* SearchViewController.swift */; };
 		30B2DF802810C92500365BDF /* HomePager1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */; };
 		30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */; };
 		30B2DF842813035E00365BDF /* iconTozanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B2DF832813035D00365BDF /* iconTozanView.xib */; };
@@ -63,6 +64,7 @@
 		3043E897282C02A50003AD65 /* Good.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Good.storyboard; sourceTree = "<group>"; };
 		3043E899282C02B30003AD65 /* Item.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Item.storyboard; sourceTree = "<group>"; };
 		3043E89B282D532B0003AD65 /* NavigationBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarController.swift; sourceTree = "<group>"; };
+		3048ED1428329ADD002DDE7B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager1ViewController.swift; sourceTree = "<group>"; };
 		30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager2ViewController.swift; sourceTree = "<group>"; };
 		30B2DF832813035D00365BDF /* iconTozanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iconTozanView.xib; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				30F8195D2805ADA60043215D /* ViewController.swift */,
+				3048ED1428329ADD002DDE7B /* SearchViewController.swift */,
 				30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */,
 				30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */,
 				3043E851281834920003AD65 /* HomePager3ViewController.swift */,
@@ -479,6 +482,7 @@
 				3043E896282AB0560003AD65 /* TabBarController.swift in Sources */,
 				3043E852281834920003AD65 /* HomePager3ViewController.swift in Sources */,
 				30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */,
+				3048ED1528329ADD002DDE7B /* SearchViewController.swift in Sources */,
 				3043E8542819905D0003AD65 /* HomePager4ViewController.swift in Sources */,
 				30B2DF86281303B700365BDF /* iconTozanXib.swift in Sources */,
 				30F8195A2805ADA60043215D /* AppDelegate.swift in Sources */,

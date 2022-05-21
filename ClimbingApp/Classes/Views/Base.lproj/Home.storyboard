@@ -135,7 +135,7 @@
         <scene sceneID="5cZ-6U-UlD">
             <objects>
                 <viewController storyboardIdentifier="First" id="Yh3-Hb-TfJ" customClass="HomePager1ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MvD-JR-TMo" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
+                    <view key="view" contentMode="scaleToFill" id="MvD-JR-TMo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>

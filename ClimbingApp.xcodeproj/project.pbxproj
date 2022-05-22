@@ -53,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25053F18E71D82732181C787 /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig"; sourceTree = "<group>"; };
 		2CE375AAE67BD84C760E0B16 /* Pods-ClimbingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		2D354DB499BE56C75DA7DE69 /* Pods-ClimbingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.release.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		3043E851281834920003AD65 /* HomePager3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager3ViewController.swift; sourceTree = "<group>"; };
@@ -71,7 +72,7 @@
 		30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager2ViewController.swift; sourceTree = "<group>"; };
 		30B2DF832813035D00365BDF /* iconTozanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iconTozanView.xib; sourceTree = "<group>"; };
 		30B2DF85281303B700365BDF /* iconTozanXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iconTozanXib.swift; sourceTree = "<group>"; };
-		30F819562805ADA60043215D /* ClimbingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F819562805ADA60043215D /* ClimbingAppDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimbingAppDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F819592805ADA60043215D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30F8195B2805ADA60043215D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		30F8195D2805ADA60043215D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +86,9 @@
 		30F8197A2805ADA70043215D /* ClimbingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingAppUITests.swift; sourceTree = "<group>"; };
 		30F8197C2805ADA70043215D /* ClimbingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		35AFB2EC31E1365C6DDA4DBD /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42262B4402B90D952EFD694B /* Pods-ClimbingApp.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.staging.xcconfig"; sourceTree = "<group>"; };
 		437CF6DD55295B83D48A45AE /* Pods_ClimbingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4485433F95984939CD0B165B /* Pods-ClimbingAppTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.staging.xcconfig"; sourceTree = "<group>"; };
 		B68651F744FBF428AFC10462 /* Pods_ClimbingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95D2DC1EA9B19EB5ED372DD /* Pods-ClimbingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BAECBD271A62DE9E530B0206 /* Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -177,7 +180,7 @@
 		30F819572805ADA60043215D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30F819562805ADA60043215D /* ClimbingApp.app */,
+				30F819562805ADA60043215D /* ClimbingAppDebug.app */,
 				30F8196C2805ADA70043215D /* ClimbingAppTests.xctest */,
 				30F819762805ADA70043215D /* ClimbingAppUITests.xctest */,
 			);
@@ -223,6 +226,9 @@
 				BAECBD271A62DE9E530B0206 /* Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig */,
 				B95D2DC1EA9B19EB5ED372DD /* Pods-ClimbingAppTests.debug.xcconfig */,
 				2D354DB499BE56C75DA7DE69 /* Pods-ClimbingAppTests.release.xcconfig */,
+				42262B4402B90D952EFD694B /* Pods-ClimbingApp.staging.xcconfig */,
+				25053F18E71D82732181C787 /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */,
+				4485433F95984939CD0B165B /* Pods-ClimbingAppTests.staging.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -256,7 +262,7 @@
 			);
 			name = ClimbingApp;
 			productName = ClimbingApp;
-			productReference = 30F819562805ADA60043215D /* ClimbingApp.app */;
+			productReference = 30F819562805ADA60043215D /* ClimbingAppDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		30F8196B2805ADA70043215D /* ClimbingAppTests */ = {
@@ -552,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_DISPLAY_NAME_SUFFIX = Staging;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -604,14 +611,14 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = STAGING;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Staging;
 		};
 		3043E88B282156E50003AD65 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CE375AAE67BD84C760E0B16 /* Pods-ClimbingApp.debug.xcconfig */;
+			baseConfigurationReference = 42262B4402B90D952EFD694B /* Pods-ClimbingApp.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -631,7 +638,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiga.ClimbingApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)${BUNDLE_DISPLAY_NAME_SUFFIX}";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -640,7 +647,7 @@
 		};
 		3043E88C282156E50003AD65 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B95D2DC1EA9B19EB5ED372DD /* Pods-ClimbingAppTests.debug.xcconfig */;
+			baseConfigurationReference = 4485433F95984939CD0B165B /* Pods-ClimbingAppTests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -666,7 +673,7 @@
 		};
 		3043E88D282156E50003AD65 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35AFB2EC31E1365C6DDA4DBD /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 25053F18E71D82732181C787 /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -692,6 +699,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_DISPLAY_NAME_SUFFIX = Debug;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -753,6 +761,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_DISPLAY_NAME_SUFFIX = "";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -826,7 +835,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiga.ClimbingApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)${BUNDLE_DISPLAY_NAME_SUFFIX}";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -855,7 +864,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.taiga.ClimbingApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)${BUNDLE_DISPLAY_NAME_SUFFIX}";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

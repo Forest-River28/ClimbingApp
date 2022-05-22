@@ -4,14 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ClimbingApp copy.xcscheme_^#shared#^_</key>
+		<key>Debug.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<true/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>8</integer>
 		</dict>
-		<key>ClimbingApp.xcscheme_^#shared#^_</key>
+		<key>Release.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Staging.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>6</integer>
@@ -20,6 +23,21 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>3043E858282155D30003AD65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30F819552805ADA60043215D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30F8196B2805ADA70043215D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30F819752805ADA70043215D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

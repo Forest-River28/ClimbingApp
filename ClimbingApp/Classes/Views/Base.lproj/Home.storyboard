@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,149 +15,45 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="FwX-NK-5bS">
+                                <rect key="frame" x="0.0" y="88" width="414" height="66"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Z6R-qW-Ehf"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="elm-bV-oLN">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WvI-hb-8QJ">
+                                <rect key="frame" x="0.0" y="154" width="414" height="659"/>
+                                <connections>
+                                    <segue destination="Hbm-T7-nNF" kind="embed" id="Vad-Hw-Eoq"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.47843140360000003" green="0.72941178080000002" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="WvI-hb-8QJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0SU-Mf-vWf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WvI-hb-8QJ" secondAttribute="trailing" id="BOi-x0-xPh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WvI-hb-8QJ" secondAttribute="bottom" id="Ma0-ft-tVt"/>
+                            <constraint firstItem="WvI-hb-8QJ" firstAttribute="top" secondItem="FwX-NK-5bS" secondAttribute="bottom" id="Nez-bt-QbV"/>
+                            <constraint firstItem="FwX-NK-5bS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Z6D-wx-DFU"/>
+                            <constraint firstItem="FwX-NK-5bS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gcS-Vp-gKc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FwX-NK-5bS" secondAttribute="trailing" id="twm-Ut-G02"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="94y-1c-YIi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2655" y="100"/>
-        </scene>
-        <!--Home Pager2 View Controller-->
-        <scene sceneID="BYy-ns-cpM">
-            <objects>
-                <viewController storyboardIdentifier="Second" id="8jN-ab-5CY" customClass="HomePager2ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Jv9-Tr-Pgl" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切り替え2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htf-uM-NVF">
-                                <rect key="frame" x="130.5" y="428" width="153" height="40"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="9dL-hu-OdE"/>
-                        <color key="backgroundColor" red="0.39173778889999999" green="0.73793762919999994" blue="0.5454229116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="Htf-uM-NVF" firstAttribute="centerX" secondItem="Jv9-Tr-Pgl" secondAttribute="centerX" id="HnI-Rw-fay"/>
-                            <constraint firstItem="Htf-uM-NVF" firstAttribute="centerY" secondItem="Jv9-Tr-Pgl" secondAttribute="centerY" id="avo-Yb-vfO"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jgk-YV-U7Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3434.7826086956525" y="-502.23214285714283"/>
-        </scene>
-        <!--Home Pager4 View Controller-->
-        <scene sceneID="dff-bs-9SV">
-            <objects>
-                <viewController storyboardIdentifier="Fourth" id="Ysd-WY-WGr" customClass="HomePager4ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FNx-MN-mHH" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切り替え4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="frQ-ev-86t">
-                                <rect key="frame" x="130" y="428" width="154" height="40"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="1yl-c5-aLE"/>
-                        <color key="backgroundColor" red="0.39173778889999999" green="0.73793762919999994" blue="0.5454229116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="frQ-ev-86t" firstAttribute="centerY" secondItem="FNx-MN-mHH" secondAttribute="centerY" id="0Ro-xF-ggv"/>
-                            <constraint firstItem="frQ-ev-86t" firstAttribute="centerX" secondItem="FNx-MN-mHH" secondAttribute="centerX" id="JJB-so-7mC"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u4S-23-u4H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4286.9565217391309" y="-502.23214285714283"/>
-        </scene>
-        <!--Home Pager5 View Controller-->
-        <scene sceneID="DJE-pJ-tS6">
-            <objects>
-                <viewController storyboardIdentifier="Fifth" id="0df-hf-Suh" customClass="HomePager5ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ah1-8z-dC1" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切り替え5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wP-rE-edd">
-                                <rect key="frame" x="130.5" y="428" width="153" height="40"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="gDg-5s-vR2"/>
-                        <color key="backgroundColor" red="0.47843140360000003" green="0.72941178080000002" blue="0.56078433989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="4wP-rE-edd" firstAttribute="centerY" secondItem="Ah1-8z-dC1" secondAttribute="centerY" id="cZH-eS-w6I"/>
-                            <constraint firstItem="4wP-rE-edd" firstAttribute="centerX" secondItem="Ah1-8z-dC1" secondAttribute="centerX" id="n3H-XL-quB"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WGi-W1-AbP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4286.9565217391309" y="178.79464285714286"/>
-        </scene>
-        <!--Home Pager3 View Controller-->
-        <scene sceneID="ghk-Jr-2J8">
-            <objects>
-                <viewController storyboardIdentifier="Third" id="pEE-Be-j1M" customClass="HomePager3ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="j5j-hl-R4b" customClass="iconTozanXib" customModule="ClimbingApp" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切り替え3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJI-UT-ZeJ">
-                                <rect key="frame" x="130.5" y="428.5" width="153" height="39.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="ZjM-tH-8xr"/>
-                        <color key="backgroundColor" red="0.39173778889999999" green="0.73793762919999994" blue="0.5454229116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="vJI-UT-ZeJ" firstAttribute="centerX" secondItem="j5j-hl-R4b" secondAttribute="centerX" id="tzJ-Bw-dy9"/>
-                            <constraint firstItem="vJI-UT-ZeJ" firstAttribute="centerY" secondItem="j5j-hl-R4b" secondAttribute="centerY" id="wzd-A3-O4E"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="CGc-sf-qyx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3376.811594202899" y="-1163.1696428571429"/>
-        </scene>
-        <!--Home Pager1 View Controller-->
-        <scene sceneID="5cZ-6U-UlD">
-            <objects>
-                <viewController storyboardIdentifier="First" id="Yh3-Hb-TfJ" customClass="HomePager1ViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="MvD-JR-TMo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="切り替え1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZg-FS-c7a">
-                                <rect key="frame" x="132.5" y="428" width="149" height="40"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="msE-Al-BsA"/>
-                        <color key="backgroundColor" red="0.39173778889999999" green="0.73793762919999994" blue="0.5454229116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="SZg-FS-c7a" firstAttribute="centerY" secondItem="MvD-JR-TMo" secondAttribute="centerY" id="atV-XX-LA2"/>
-                            <constraint firstItem="SZg-FS-c7a" firstAttribute="centerX" secondItem="MvD-JR-TMo" secondAttribute="centerX" id="rfx-Jj-QI1"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="KBo-Yf-Ltg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2514" y="-1163"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="cFN-5Y-jAD">
@@ -209,6 +106,21 @@
             </objects>
             <point key="canvasLocation" x="365" y="523"/>
         </scene>
+        <!--All Mountain View Controller-->
+        <scene sceneID="9n2-et-KLR">
+            <objects>
+                <viewController id="yad-uS-yjA" customClass="AllMountainViewController" customModule="ClimbingApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jTl-ca-Ikd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="wE7-54-vHt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Gg-Yj-f2d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3646" y="100"/>
+        </scene>
         <!--Home-->
         <scene sceneID="S2g-po-7ye">
             <objects>
@@ -226,10 +138,27 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e54-2N-muT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1560.8695652173915" y="99.776785714285708"/>
+            <point key="canvasLocation" x="1317" y="100"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5wf-wO-S8t">
+            <objects>
+                <viewController id="Hbm-T7-nNF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rKH-ps-GeP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="659"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RpZ-g4-wBe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2652" y="879"/>
         </scene>
     </scenes>
     <resources>
         <image name="house" catalog="system" width="128" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

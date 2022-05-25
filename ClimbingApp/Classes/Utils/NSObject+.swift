@@ -9,12 +9,12 @@ import Foundation
 
 extension NSObject {
 
-    // クラス名
+    // クラス名のみ取得
     static var className: String {
         return String(describing: self)
     }
     
-    // クラス名
+    // クラス名のみ取得
     var className: String {
         return String(describing: type(of: self))
     }

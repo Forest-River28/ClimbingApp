@@ -7,15 +7,32 @@
 
 import Foundation
 
-extension NSObject {
+public protocol ClassNameProtocol {
+    static var className: String { get }
+    var className: String { get }
+}
 
-    // クラス名のみ取得
+public extension ClassNameProtocol {
     static var className: String {
-        return String(describing: self)
+        String(describing: self)
     }
     
-    // クラス名のみ取得
     var className: String {
-        return String(describing: type(of: self))
+        self.className
     }
 }
+
+extension NSObject: ClassNameProtocol {}
+
+//extension NSObject {
+//
+//    // クラス名のみ取得
+//    static var className: String {
+//        return String(describing: self)
+//    }
+//
+//    // クラス名のみ取得
+//    var className: String {
+//        return String(describing: type(of: self))
+//    }
+//}

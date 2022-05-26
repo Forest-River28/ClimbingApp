@@ -8,7 +8,7 @@
 import UIKit
 import XLPagerTabStrip
 
-final class AllMountainListViewController {
+ class AllMountainListViewController {
 
     
 }

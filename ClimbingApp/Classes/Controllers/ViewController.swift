@@ -8,7 +8,7 @@
 import UIKit
 import XLPagerTabStrip
 
-class ViewController: ButtonBarPagerTabStripViewController {
+final class ViewController: ButtonBarPagerTabStripViewController {
 
     override func viewDidLoad() {
         // バーの色
@@ -34,6 +34,6 @@ class ViewController: ButtonBarPagerTabStripViewController {
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         let storyboardName = "Home"
         
-        guard let allMountain = UIStoryboard.getViewController(name: storyboardName, identifier:AllMountainListViewController) as? AllMountainListViewController,
+        guard let allMountain = UIStoryboard.getViewController(name: storyboardName, identifier:AllMountainListViewController.classN) as? AllMountainListViewController,
     }
 }

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		063CE01012ACD32FB06299D3 /* Pods_ClimbingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 437CF6DD55295B83D48A45AE /* Pods_ClimbingApp.framework */; };
+		1B9EB1899F1CA91594860860 /* Pods_ClimbingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEC6E6846C0F02479C9C16B /* Pods_ClimbingApp.framework */; };
 		3009DB27283BC5140020421D /* UIStoryboard+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009DB26283BC5140020421D /* UIStoryboard+.swift */; };
 		3009DB29283BC9BE0020421D /* AllMountainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009DB28283BC9BE0020421D /* AllMountainListViewController.swift */; };
 		3009DB2B283BCB5F0020421D /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3009DB2A283BCB5F0020421D /* NSObject+.swift */; };
@@ -34,8 +34,8 @@
 		30F819712805ADA70043215D /* ClimbingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F819702805ADA70043215D /* ClimbingAppTests.swift */; };
 		30F8197B2805ADA70043215D /* ClimbingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8197A2805ADA70043215D /* ClimbingAppUITests.swift */; };
 		30F8197D2805ADA70043215D /* ClimbingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8197C2805ADA70043215D /* ClimbingAppUITestsLaunchTests.swift */; };
-		607C8DF61EC77C731DFE1548 /* Pods_ClimbingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B68651F744FBF428AFC10462 /* Pods_ClimbingAppTests.framework */; };
-		A9BB3CB562CC3C59BEC55B9A /* Pods_ClimbingApp_ClimbingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED598DA57EB7BD54929FC09 /* Pods_ClimbingApp_ClimbingAppUITests.framework */; };
+		D38787AB3A67A82EA6F671A2 /* Pods_ClimbingApp_ClimbingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D297F2665753730B8ECE59EB /* Pods_ClimbingApp_ClimbingAppUITests.framework */; };
+		F39C5E0BFEA66C7A170F6484 /* Pods_ClimbingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA30E5700635C60DE64C09F /* Pods_ClimbingAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25053F18E71D82732181C787 /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig"; sourceTree = "<group>"; };
-		2CE375AAE67BD84C760E0B16 /* Pods-ClimbingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.debug.xcconfig"; sourceTree = "<group>"; };
-		2D354DB499BE56C75DA7DE69 /* Pods-ClimbingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.release.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0184ABA8D7FD82A0FAA055EC /* Pods-ClimbingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.release.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.release.xcconfig"; sourceTree = "<group>"; };
+		05467501DA7E7CCD7D7D52F3 /* Pods-ClimbingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DF6AD10D9391C9CCABEC80F /* Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E2A8AE703864FF777072EA9 /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3009DB26283BC5140020421D /* UIStoryboard+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+.swift"; sourceTree = "<group>"; };
 		3009DB28283BC9BE0020421D /* AllMountainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMountainListViewController.swift; sourceTree = "<group>"; };
 		3009DB2A283BCB5F0020421D /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
@@ -91,15 +92,14 @@
 		30F819762805ADA70043215D /* ClimbingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClimbingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F8197A2805ADA70043215D /* ClimbingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingAppUITests.swift; sourceTree = "<group>"; };
 		30F8197C2805ADA70043215D /* ClimbingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		35AFB2EC31E1365C6DDA4DBD /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		42262B4402B90D952EFD694B /* Pods-ClimbingApp.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.staging.xcconfig"; sourceTree = "<group>"; };
-		437CF6DD55295B83D48A45AE /* Pods_ClimbingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4485433F95984939CD0B165B /* Pods-ClimbingAppTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.staging.xcconfig"; sourceTree = "<group>"; };
-		B68651F744FBF428AFC10462 /* Pods_ClimbingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B95D2DC1EA9B19EB5ED372DD /* Pods-ClimbingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BAECBD271A62DE9E530B0206 /* Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DED598DA57EB7BD54929FC09 /* Pods_ClimbingApp_ClimbingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingApp_ClimbingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F48BC29EF8653A6A0279CFD7 /* Pods-ClimbingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.release.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.release.xcconfig"; sourceTree = "<group>"; };
+		497C6C9900FF5AE41CF0642C /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingApp-ClimbingAppUITests/Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig"; sourceTree = "<group>"; };
+		6BEC6E6846C0F02479C9C16B /* Pods_ClimbingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D8034352A3225C134BB5003 /* Pods-ClimbingApp.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.staging.xcconfig"; sourceTree = "<group>"; };
+		8DA30E5700635C60DE64C09F /* Pods_ClimbingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9815B88323AF767A8670CFC2 /* Pods-ClimbingAppTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.staging.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.staging.xcconfig"; sourceTree = "<group>"; };
+		B581E2D51ADD36AF75810684 /* Pods-ClimbingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingApp.debug.xcconfig"; path = "Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D297F2665753730B8ECE59EB /* Pods_ClimbingApp_ClimbingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimbingApp_ClimbingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6082A818E66DD4530B69B89 /* Pods-ClimbingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimbingAppTests.release.xcconfig"; path = "Target Support Files/Pods-ClimbingAppTests/Pods-ClimbingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				063CE01012ACD32FB06299D3 /* Pods_ClimbingApp.framework in Frameworks */,
+				1B9EB1899F1CA91594860860 /* Pods_ClimbingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607C8DF61EC77C731DFE1548 /* Pods_ClimbingAppTests.framework in Frameworks */,
+				F39C5E0BFEA66C7A170F6484 /* Pods_ClimbingAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9BB3CB562CC3C59BEC55B9A /* Pods_ClimbingApp_ClimbingAppUITests.framework in Frameworks */,
+				D38787AB3A67A82EA6F671A2 /* Pods_ClimbingApp_ClimbingAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,9 +188,9 @@
 				30F819792805ADA70043215D /* ClimbingAppUITests */,
 				30F819572805ADA60043215D /* Products */,
 				D79DC55B241CC8712C451C87 /* Pods */,
-				F9E5347CBF08329134B9C9CC /* Frameworks */,
 				3043E870282155D30003AD65 /* ClimbingApp copy-Info.plist */,
 				3043E889282155F50003AD65 /* ClimbingApp copy2-Info.plist */,
+				C566200FE976675DD191D321 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,30 +234,30 @@
 			path = ClimbingAppUITests;
 			sourceTree = "<group>";
 		};
+		C566200FE976675DD191D321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BEC6E6846C0F02479C9C16B /* Pods_ClimbingApp.framework */,
+				D297F2665753730B8ECE59EB /* Pods_ClimbingApp_ClimbingAppUITests.framework */,
+				8DA30E5700635C60DE64C09F /* Pods_ClimbingAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D79DC55B241CC8712C451C87 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2CE375AAE67BD84C760E0B16 /* Pods-ClimbingApp.debug.xcconfig */,
-				F48BC29EF8653A6A0279CFD7 /* Pods-ClimbingApp.release.xcconfig */,
-				35AFB2EC31E1365C6DDA4DBD /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */,
-				BAECBD271A62DE9E530B0206 /* Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig */,
-				B95D2DC1EA9B19EB5ED372DD /* Pods-ClimbingAppTests.debug.xcconfig */,
-				2D354DB499BE56C75DA7DE69 /* Pods-ClimbingAppTests.release.xcconfig */,
-				42262B4402B90D952EFD694B /* Pods-ClimbingApp.staging.xcconfig */,
-				25053F18E71D82732181C787 /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */,
-				4485433F95984939CD0B165B /* Pods-ClimbingAppTests.staging.xcconfig */,
+				B581E2D51ADD36AF75810684 /* Pods-ClimbingApp.debug.xcconfig */,
+				7D8034352A3225C134BB5003 /* Pods-ClimbingApp.staging.xcconfig */,
+				0184ABA8D7FD82A0FAA055EC /* Pods-ClimbingApp.release.xcconfig */,
+				2E2A8AE703864FF777072EA9 /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */,
+				497C6C9900FF5AE41CF0642C /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */,
+				0DF6AD10D9391C9CCABEC80F /* Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig */,
+				05467501DA7E7CCD7D7D52F3 /* Pods-ClimbingAppTests.debug.xcconfig */,
+				9815B88323AF767A8670CFC2 /* Pods-ClimbingAppTests.staging.xcconfig */,
+				E6082A818E66DD4530B69B89 /* Pods-ClimbingAppTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		F9E5347CBF08329134B9C9CC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				437CF6DD55295B83D48A45AE /* Pods_ClimbingApp.framework */,
-				DED598DA57EB7BD54929FC09 /* Pods_ClimbingApp_ClimbingAppUITests.framework */,
-				B68651F744FBF428AFC10462 /* Pods_ClimbingAppTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,11 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30F819802805ADA70043215D /* Build configuration list for PBXNativeTarget "ClimbingApp" */;
 			buildPhases = (
-				83F6A97BC6F02BC713E5925A /* [CP] Check Pods Manifest.lock */,
+				686E295FDAE554267669FAEA /* [CP] Check Pods Manifest.lock */,
 				30F819522805ADA60043215D /* Sources */,
 				30F819532805ADA60043215D /* Frameworks */,
 				30F819542805ADA60043215D /* Resources */,
-				7342009A593576AE7E776386 /* [CP] Embed Pods Frameworks */,
+				65A0C136F1FE7A8D7F0C3429 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,7 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30F819832805ADA70043215D /* Build configuration list for PBXNativeTarget "ClimbingAppTests" */;
 			buildPhases = (
-				76146739BD7C2F6308076231 /* [CP] Check Pods Manifest.lock */,
+				11F14E3A9F7011EE4210E3AC /* [CP] Check Pods Manifest.lock */,
 				30F819682805ADA70043215D /* Sources */,
 				30F819692805ADA70043215D /* Frameworks */,
 				30F8196A2805ADA70043215D /* Resources */,
@@ -305,11 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30F819862805ADA70043215D /* Build configuration list for PBXNativeTarget "ClimbingAppUITests" */;
 			buildPhases = (
-				5CAF9E6A3D76BDBF15268EA9 /* [CP] Check Pods Manifest.lock */,
+				57765963FC75583511FDF699 /* [CP] Check Pods Manifest.lock */,
 				30F819722805ADA70043215D /* Sources */,
 				30F819732805ADA70043215D /* Frameworks */,
 				30F819742805ADA70043215D /* Resources */,
-				C006458DC83023355A964D75 /* [CP] Embed Pods Frameworks */,
+				F7C50C5AE520952E025AF0B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -396,46 +396,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5CAF9E6A3D76BDBF15268EA9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ClimbingApp-ClimbingAppUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7342009A593576AE7E776386 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76146739BD7C2F6308076231 /* [CP] Check Pods Manifest.lock */ = {
+		11F14E3A9F7011EE4210E3AC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,7 +418,46 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83F6A97BC6F02BC713E5925A /* [CP] Check Pods Manifest.lock */ = {
+		57765963FC75583511FDF699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClimbingApp-ClimbingAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A0C136F1FE7A8D7F0C3429 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ClimbingApp/Pods-ClimbingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		686E295FDAE554267669FAEA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,7 +479,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C006458DC83023355A964D75 /* [CP] Embed Pods Frameworks */ = {
+		F7C50C5AE520952E025AF0B5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -638,7 +638,7 @@
 		};
 		3043E88B282156E50003AD65 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42262B4402B90D952EFD694B /* Pods-ClimbingApp.staging.xcconfig */;
+			baseConfigurationReference = 7D8034352A3225C134BB5003 /* Pods-ClimbingApp.staging.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -667,7 +667,7 @@
 		};
 		3043E88C282156E50003AD65 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4485433F95984939CD0B165B /* Pods-ClimbingAppTests.staging.xcconfig */;
+			baseConfigurationReference = 9815B88323AF767A8670CFC2 /* Pods-ClimbingAppTests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -693,7 +693,7 @@
 		};
 		3043E88D282156E50003AD65 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25053F18E71D82732181C787 /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */;
+			baseConfigurationReference = 497C6C9900FF5AE41CF0642C /* Pods-ClimbingApp-ClimbingAppUITests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -835,7 +835,7 @@
 		};
 		30F819812805ADA70043215D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CE375AAE67BD84C760E0B16 /* Pods-ClimbingApp.debug.xcconfig */;
+			baseConfigurationReference = B581E2D51ADD36AF75810684 /* Pods-ClimbingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -864,7 +864,7 @@
 		};
 		30F819822805ADA70043215D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F48BC29EF8653A6A0279CFD7 /* Pods-ClimbingApp.release.xcconfig */;
+			baseConfigurationReference = 0184ABA8D7FD82A0FAA055EC /* Pods-ClimbingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -893,7 +893,7 @@
 		};
 		30F819842805ADA70043215D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B95D2DC1EA9B19EB5ED372DD /* Pods-ClimbingAppTests.debug.xcconfig */;
+			baseConfigurationReference = 05467501DA7E7CCD7D7D52F3 /* Pods-ClimbingAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -919,7 +919,7 @@
 		};
 		30F819852805ADA70043215D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D354DB499BE56C75DA7DE69 /* Pods-ClimbingAppTests.release.xcconfig */;
+			baseConfigurationReference = E6082A818E66DD4530B69B89 /* Pods-ClimbingAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -945,7 +945,7 @@
 		};
 		30F819872805ADA70043215D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35AFB2EC31E1365C6DDA4DBD /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 2E2A8AE703864FF777072EA9 /* Pods-ClimbingApp-ClimbingAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -969,7 +969,7 @@
 		};
 		30F819882805ADA70043215D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAECBD271A62DE9E530B0206 /* Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig */;
+			baseConfigurationReference = 0DF6AD10D9391C9CCABEC80F /* Pods-ClimbingApp-ClimbingAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

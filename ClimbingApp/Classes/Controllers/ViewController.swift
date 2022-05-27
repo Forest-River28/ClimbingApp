@@ -34,6 +34,6 @@ final class ViewController: ButtonBarPagerTabStripViewController {
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
         let storyboardName = "Home"
         
-        guard let allMountain = UIStoryboard.getViewController(name: storyboardName, identifier:AllMountainListViewController.classN) as? AllMountainListViewController,
+        guard let allMountain = UIStoryboard.getViewController(name: storyboardName, identifier:AllMountainListViewController.className) as? AllMountainListViewController,
     }
 }

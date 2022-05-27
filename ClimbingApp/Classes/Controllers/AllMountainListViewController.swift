@@ -8,7 +8,10 @@
 import UIKit
 import XLPagerTabStrip
 
- class AllMountainListViewController {
-
+class AllMountainListViewController: UIViewController{
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
     
 }

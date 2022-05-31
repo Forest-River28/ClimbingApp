@@ -9,6 +9,9 @@ import UIKit
 import XLPagerTabStrip
 
 final class ViewController: ButtonBarPagerTabStripViewController {
+    
+    /// 山の詳細ページへ遷移するIdentifier
+    private let homeToMountaiDetail = "homeToMountaiDetail"
 
     override func viewDidLoad() {
         // バーの色
@@ -35,5 +38,13 @@ final class ViewController: ButtonBarPagerTabStripViewController {
         let storyboardName = "Home"
         
         guard let allMountain = UIStoryboard.getViewController(name: storyboardName, identifier:AllMountainListViewController.className) as? AllMountainListViewController,
+              let recommendMountain = UIStoryboard.getViewController(name: storyboardName, identifier: RecommendMountainTabViewController.className) as? RecommendMountainTabViewController,
+              let beginnerMoutain = UIStoryboard.getViewController(name: storyboardName, identifier: BeginnerMountainTabViewController.className) as? BeginnerMountainTabViewController,
+              let lowMountain = UIStoryboard.getViewController(name: storyboardName, identifier: LowMountainTabViewController.className) as? LowMountainTabViewController,
+              let hundredFamousMountain = UIStoryboard.getViewController(name: storyboardName, identifier: HundredFamousMountainTabViewController.className) as? HundredFamousMountainTabViewController
+        else {
+            return []
+        }
+        return [allMountain, recommendMountain, beginnerMoutain, lowMountain, hundredFamousMountain]
     }
 }

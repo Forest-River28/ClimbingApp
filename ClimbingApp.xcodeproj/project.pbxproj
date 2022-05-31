@@ -21,6 +21,11 @@
 		3043E89C282D532B0003AD65 /* NavigationBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3043E89B282D532B0003AD65 /* NavigationBarController.swift */; };
 		3048ED1528329ADD002DDE7B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3048ED1428329ADD002DDE7B /* SearchViewController.swift */; };
 		3048ED172833ED03002DDE7B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3048ED162833ED03002DDE7B /* NavigationController.swift */; };
+		3076FD8E28412191005C2431 /* RecommendMountainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076FD8D28412191005C2431 /* RecommendMountainTabViewController.swift */; };
+		3076FD902841225C005C2431 /* BeginnerMountainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076FD8F2841225C005C2431 /* BeginnerMountainTabViewController.swift */; };
+		3076FD9228412303005C2431 /* LowMountainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076FD9128412303005C2431 /* LowMountainTabViewController.swift */; };
+		3076FD94284123A6005C2431 /* HundredFamousMountainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076FD93284123A6005C2431 /* HundredFamousMountainTabViewController.swift */; };
+		3076FD98284136BC005C2431 /* MountainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3076FD97284136BC005C2431 /* MountainDetailViewController.swift */; };
 		30B2DF802810C92500365BDF /* HomePager1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */; };
 		30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */; };
 		30B2DF842813035E00365BDF /* iconTozanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30B2DF832813035D00365BDF /* iconTozanView.xib */; };
@@ -75,6 +80,11 @@
 		3043E89B282D532B0003AD65 /* NavigationBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarController.swift; sourceTree = "<group>"; };
 		3048ED1428329ADD002DDE7B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3048ED162833ED03002DDE7B /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		3076FD8D28412191005C2431 /* RecommendMountainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendMountainTabViewController.swift; sourceTree = "<group>"; };
+		3076FD8F2841225C005C2431 /* BeginnerMountainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeginnerMountainTabViewController.swift; sourceTree = "<group>"; };
+		3076FD9128412303005C2431 /* LowMountainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowMountainTabViewController.swift; sourceTree = "<group>"; };
+		3076FD93284123A6005C2431 /* HundredFamousMountainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundredFamousMountainTabViewController.swift; sourceTree = "<group>"; };
+		3076FD97284136BC005C2431 /* MountainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainDetailViewController.swift; sourceTree = "<group>"; };
 		30B2DF7F2810C92500365BDF /* HomePager1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager1ViewController.swift; sourceTree = "<group>"; };
 		30B2DF812810C9C400365BDF /* HomePager2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePager2ViewController.swift; sourceTree = "<group>"; };
 		30B2DF832813035D00365BDF /* iconTozanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iconTozanView.xib; sourceTree = "<group>"; };
@@ -176,6 +186,11 @@
 				3043E89B282D532B0003AD65 /* NavigationBarController.swift */,
 				3048ED162833ED03002DDE7B /* NavigationController.swift */,
 				3009DB28283BC9BE0020421D /* AllMountainListViewController.swift */,
+				3076FD8D28412191005C2431 /* RecommendMountainTabViewController.swift */,
+				3076FD8F2841225C005C2431 /* BeginnerMountainTabViewController.swift */,
+				3076FD9128412303005C2431 /* LowMountainTabViewController.swift */,
+				3076FD93284123A6005C2431 /* HundredFamousMountainTabViewController.swift */,
+				3076FD97284136BC005C2431 /* MountainDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -508,8 +523,10 @@
 				3043E896282AB0560003AD65 /* TabBarController.swift in Sources */,
 				3043E852281834920003AD65 /* HomePager3ViewController.swift in Sources */,
 				3009DB29283BC9BE0020421D /* AllMountainListViewController.swift in Sources */,
+				3076FD902841225C005C2431 /* BeginnerMountainTabViewController.swift in Sources */,
 				30B2DF822810C9C400365BDF /* HomePager2ViewController.swift in Sources */,
 				3048ED1528329ADD002DDE7B /* SearchViewController.swift in Sources */,
+				3076FD8E28412191005C2431 /* RecommendMountainTabViewController.swift in Sources */,
 				3043E8542819905D0003AD65 /* HomePager4ViewController.swift in Sources */,
 				30B2DF86281303B700365BDF /* iconTozanXib.swift in Sources */,
 				3048ED172833ED03002DDE7B /* NavigationController.swift in Sources */,
@@ -517,6 +534,9 @@
 				3009DB27283BC5140020421D /* UIStoryboard+.swift in Sources */,
 				3043E89C282D532B0003AD65 /* NavigationBarController.swift in Sources */,
 				3009DB2B283BCB5F0020421D /* NSObject+.swift in Sources */,
+				3076FD9228412303005C2431 /* LowMountainTabViewController.swift in Sources */,
+				3076FD98284136BC005C2431 /* MountainDetailViewController.swift in Sources */,
+				3076FD94284123A6005C2431 /* HundredFamousMountainTabViewController.swift in Sources */,
 				30F8195C2805ADA60043215D /* SceneDelegate.swift in Sources */,
 				3043E856281B26CD0003AD65 /* HomePager5ViewController.swift in Sources */,
 			);

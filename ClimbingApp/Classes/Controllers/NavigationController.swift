@@ -16,4 +16,8 @@ class NavigationController: UINavigationController {
         imageView.contentMode = .scaleAspectFit
         self.navigationItem.titleView = imageView
     }
+    
+    func moveTabButton() {
+        performSegue(withIdentifier: "navigationControllerToTabButton", sender: nil)
+    }
 }
